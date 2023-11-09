@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import Survice from './Survice';
 import Home from './Home';
 import Contact from './Contact';
@@ -9,12 +11,14 @@ import EPage from './EPage';
 import BasicExample from './BasicExample';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import User from './User';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <>
       <BrowserRouter>
-     <BasicExample/>
+     {/* <BasicExample/> */}
+     <Navbar/>
         <Routes>
           <Route path='/survice' element = {<Survice/> } ></Route>
           <Route path="/About" element = {<About/>}></Route>

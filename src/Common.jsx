@@ -11,7 +11,7 @@ const Common = (props) => {
                         <div className="col-10 mx-auto">
                             <div className="row">
                                 <div className="col-md-6 pt-5 pd-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                                    <h1> {props.name} <strong className="brand-name"> THe Rk Survices</strong>
+                                    <h1> {props.name} <strong className="brand-name"> THe Rk Technical</strong>
                                     </h1>
                                     <h2 className="my-3">
                                         We are the team of talented developer making websites
