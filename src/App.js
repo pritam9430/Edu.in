@@ -7,7 +7,6 @@ import Home from './Home';
 import Contact from './Contact';
 import About from './About';
 import EPage from './EPage';
-// import Example from './Example';
 import BasicExample from './BasicExample';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import User from './User';
@@ -17,7 +16,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-     {/* <BasicExample/> */}
+    
      <Navbar/>
         <Routes>
           <Route path='/survice' element = {<Survice/> } ></Route>
